@@ -30,5 +30,22 @@ return [
         ],
     ],
 
+    'service' => [
+        'title' => 'Services',
+
+        'actions' => [
+            'index' => 'Services',
+            'create' => 'New Service',
+            'edit' => 'Edit :name',
+        ],
+
+        'columns' => [
+            'id' => 'ID',
+            'name' => 'Name',
+            'description' => 'Description',
+            
+        ],
+    ],
+
     // Do not delete me :) I'm used for auto-generation
 ];
